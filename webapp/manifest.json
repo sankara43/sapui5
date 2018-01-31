@@ -15,7 +15,9 @@
 				"uri": "/destinations/ES4/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/",
 				"type": "OData",
 				"settings": {
-					"odataVersion": "2.0"
+					"odataVersion": "2.0",
+						"localUri": "localService/GWSAMPLE_BASIC/metadata.xml",
+					"annotations": []
 				}
 			}
 		}
