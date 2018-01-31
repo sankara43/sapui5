@@ -23,8 +23,7 @@
 								</Carousel>
 							</IconTabFilter>
 							<IconTabFilter id="layouts" text="{i18n>layoutFilter}">
-								<MessageStrip type="Information"
-								showIcon="true" text="Here's a Form Layout inside an Icon Tab Bar …"/>
+								<MessageStrip type="Information" showIcon="true" text="Here's a Form Layout inside an Icon Tab Bar …"/>
 								<f:SimpleForm id="simpleFormChange" title="Address" editable="true" class="editableForm sapUiSmallMarginTopBottom">
 									<f:content>
 										<Label text="{i18n>layoutFormName}"/>
@@ -52,6 +51,15 @@
 									<Button text="{i18n>layoutPublishButton}" type="Accept" icon="sap-icon://outbox"/>
 									<Button text="{i18n>layoutDraftButton}" icon="sap-icon://save"/>
 								</Toolbar>
+							</IconTabFilter>
+							<IconTabFilter text="Data Binding" key="db">
+								<content>
+									<List headerText="Products" width="auto" items="{/ProductSet}">
+										<items>
+											<ObjectListItem title="{Name}" number="{Price}" intro="{ProductID}"/>
+										</items>
+									</List>
+								</content>
 							</IconTabFilter>
 						</items>
 					</IconTabBar>
