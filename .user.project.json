@@ -15,7 +15,11 @@
         "runnerId": "webapprunner",
         "id": 7391490,
         "displayName": "Run index.html",
+<<<<<<< HEAD
         "lastRunTimeStamp": 1517477510654
+=======
+        "lastRunTimeStamp": 1517426435815
+>>>>>>> branch 'SAPUI5' of https://github.com/sankara43/sapui5.git
       }
     }
   ]

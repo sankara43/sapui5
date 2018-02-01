@@ -67,6 +67,7 @@
 							</IconTabFilter>
 							<IconTabFilter text="{i18n>dataBindingFilter}" key="db">
 								<content>
+<<<<<<< HEAD
 									<List headerText="{i18n>productListTitle}" 	id="productsList" items="{
 											path : '/ProductSet',
 											sorter : {
@@ -125,6 +126,13 @@
 											<Text text="{i18n>productDetailPanelPrice}: {Price}"/>
 									  </l:Grid>		
 									</Panel>
+=======
+									<List headerText="{i18n>productListTitle}" items="{/ProductSet}">
+										<items>
+											<ObjectListItem title="{Name}" number="{Price}" intro="{ProductID}"/>
+										</items>
+									</List>
+>>>>>>> branch 'SAPUI5' of https://github.com/sankara43/sapui5.git
 								</content>
 							</IconTabFilter>
 						</items>

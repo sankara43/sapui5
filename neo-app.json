@@ -17,12 +17,21 @@
 			},
 			"description": "SAPUI5 Test Resources"
 		}, {
+<<<<<<< HEAD
 			"path": "/destinations/ES4",
 			"target": {
 				"type": "destination",
 				"name": "ES4"
 			},
 			"description": "ES4 Demo Service"
+=======
+			"path": "/ES4",
+			"target": {
+				"type": "destination",
+				"name": "ES4"
+			},
+			"description": "ES4 Demo System"
+>>>>>>> branch 'SAPUI5' of https://github.com/sankara43/sapui5.git
 		}
 
 	]
