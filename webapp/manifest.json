@@ -9,6 +9,22 @@
 		"description": "{{appDescription}}",
 		"applicationVersion": {
 			"version": "1.0.0"
+		},
+		"dataSources": {
+			"ES4": {
+				"uri": "/destinations/ES4/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			},
+			"ES5": {
+				"uri": "https://sapes5.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			}
 		}
 	},
 	"sap.ui": {
@@ -30,6 +46,7 @@
 			"type": "XML",
 			"id": "app"
 		},
+		"handleValidation": true,
 		"autoPrefixId": true,
 		"dependencies": {
 			"minUI5Version": "1.34",
@@ -60,7 +77,11 @@
 				"settings": {
 					"bundleName": "myapp.i18n.i18n"
 				}
+			},
+			"" : {
+				"dataSource": "ES4"
 			}
+
 		},
 
 		"contentDensities": {
